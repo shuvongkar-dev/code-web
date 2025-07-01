@@ -21,24 +21,43 @@ nav > ul > li > a {
 }
 
 aside{
-    height: 100%;
     width: 200px;
     border-right: 2px solid black;
+    margin-right: 10px;
 }
 
 aside ul li{
     margin-bottom: 30px;
     padding: 20px;
+    list-style: none;
 }
 
 main{
     display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 section{
-    width: 100%;  
+    width: 100%;
+    background-image: url(../img/image3.png);  
+    color: rgb(255, 255, 255);
+    background-color: rgb(90, 79, 79);
+    background-blend-mode: multiply;
 }
 section h2{
     text-align: center;
     margin-top: 20px;
+}
+
+section p{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: black;
+    
 }
