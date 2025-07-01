@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav > ul > li {
+    display: inline;
+    margin: 0 80px 0 80px;
+}
+
+nav{
+    padding: 20px;
+    text-align: center;
+    background-color: darkgray;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+aside{
+    height: 100%;
+    width: 200px;
+    border-right: 2px solid black;
+}
+
+aside ul li{
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+main{
+    display: flex;
+}
+
+section{
+    width: 100%;  
+}
+section h2{
+    text-align: center;
+    margin-top: 20px;
+}
